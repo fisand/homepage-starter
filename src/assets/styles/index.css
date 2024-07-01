@@ -1,0 +1,10 @@
+body {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #000;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

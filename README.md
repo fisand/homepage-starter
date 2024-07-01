@@ -1,0 +1,1 @@
+# fisand-home-seed template
