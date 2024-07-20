@@ -2,11 +2,11 @@ import { BorderBeam } from '@/components/ui/border-beam'
 
 export const Banner = () => {
   return (
-    <div className="max-w-fit mx-auto relative rounded-xl">
+    <div className="relative mx-auto max-w-fit rounded-xl">
       <img
-        src="https://magicui.design/dashboard-dark.png"
+        src="https://im.gurl.eu.org/file/0227f27ec19619097fe12.jpg"
         alt="Hero Image"
-        className="w-[800px] rounded-[inherit] border object-contain shadow-lg"
+        className="w-[85vw] rounded-[inherit] object-contain"
       />
 
       <BorderBeam size={250} duration={12} delay={9} />

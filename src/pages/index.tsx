@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <div className="min-h-[calc(100vh+4rem)] flex flex-col bg-#000">
       <Header />
-      <div className="flex-1">
-        <div className="flex-center text-white text-6xl lh-40">Fisand homepage seed</div>
+      <div className="h-screen flex-1 pb-20">
+        <div className="flex-center text-5xl text-white lh-40">Fisand homepage seed</div>
         <Banner />
       </div>
 
