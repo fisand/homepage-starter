@@ -1,4 +1,5 @@
-import { defineConfig, presetIcons, presetUno, presetWind, UserConfig } from 'unocss'
+import type { UserConfig } from 'unocss'
+import { defineConfig, presetIcons, presetUno, presetWind } from 'unocss'
 
 const config = {
   presets: [presetUno(), presetWind(), presetIcons()],

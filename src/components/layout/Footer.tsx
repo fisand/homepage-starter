@@ -19,7 +19,7 @@ const medias = [
   },
 ]
 
-export const Footer = () => {
+export function Footer() {
   return (
     <div className="h-16 flex-center lt-sm:px-4 lt-sm:pb-5 lt-sm:pt-20">
       <div className="mx-auto flex justify-between gap-4 container lt-sm:flex-col">

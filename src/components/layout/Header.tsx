@@ -5,7 +5,7 @@ const links = [
   { name: 'Meet', href: '#' },
 ]
 
-export const Header = () => {
+export function Header() {
   return (
     <div className="relative z-10 lt-sm:px-4">
       <div className="mx-auto flex items-center justify-between py-4 container">
@@ -14,7 +14,7 @@ export const Header = () => {
         </span>
 
         <div className="flex-center">
-          {links.map((link) => (
+          {links.map(link => (
             <Link key={link.name} to={link.href} className="px-8 text-white font-500 lt-sm:hidden">
               {link.name}
             </Link>

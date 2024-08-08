@@ -1,6 +1,6 @@
 import { BorderBeam } from '@/components/ui/border-beam'
 
-export const Banner = () => {
+export function Banner() {
   return (
     <div className="relative mx-auto max-w-fit rounded-xl">
       <img
